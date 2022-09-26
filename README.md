@@ -1,44 +1,21 @@
-# Kaggle House Prices: Advanced Regression Techniques
-[House Prices: Advanced Regression Techniques
-Competition on Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-#### Shitao Wang submission version 1
+# Advanced-House-Price-Prediction
+It is a Advanced Problem of Regression which requires advanced techniques of feature engineering, feature selection and extraction, modelling, model evaluation, and Statistics.
 
-### Install
+Start here if...
+You have some experience with R or Python and machine learning basics. This is a perfect competition for data science students who have completed an online course in machine learning and are looking to expand their skill set before trying a featured competition. 
 
-This project requires **Python 2.7** and the following Python libraries installed:
+# Description
 
-- [NumPy](http://www.numpy.org/)
-- [matplotlib](http://matplotlib.org/)
-- [seaborn](https://stanford.edu/~mwaskom/software/seaborn/#)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
 
-### Code
+With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
-All ipython notebook are used for data preprocessing, feature transforming and outlier detecting.
-All core scripts are in `code` folder, in which the ensemble learning script is in `ensemble` folder and
-base model script is in `sing_model` folder. All input data are in `input` folder and the detailed description
-of the data can be found in [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data). 
-### Run
+Practice Skills
+Creative feature engineering 
+Advanced regression techniques like random forest and gradient boosting
+Acknowledgments
+The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
 
-For a single model run, navigate to the `/code/single_model/` and run the following commands: ```python base_model.py```
-For a ensemble run, navigate to the `/code/ensemble/` and run the following commands: ```python ensemble.py```
-Make sure to change the data directory and the parameters accordingly before the model run.
-
-### Submission
-
-<img src="/doc/fig/score_with_different_approaches.png">
-
-Submission score on Kaggle leaderboard with different approaches.
-
-### FlowChart
-
-<img src="/doc/fig/flowchart.jpg" align="center" width="900px"/>
-
-Flow chart of the code.
-
-### Documentation
-
-See `./doc/capstone_doc.pdf` for detailed project documentation.
+# Goal
+It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
