@@ -32,6 +32,27 @@ People looking to buy a new house tend to be more conservative with their budget
 arrange the right time to purchase a house.
 Nowadays, everything is shifting from manual to automated systems. So, we decided to develop a model that predicts the price of the house when user
 provides location and size as input.
+# CONCLUSION
+In this project we used regression algorithms to predict house prices of real dataset of Seattle, USA. This dataset is used to train and test four different
+regression models which include Linear Regression, Lasso Regression, Ridge Regression and ElasticNet Regression model.
+
+In order to evaluate performance of each model we have used evaluation metrics like R-squared value and adjusted R-squared value. The value of R2 and
+Adjusted R2 are compared to select accurate model.
+
+
+By making a clear analysis we have found that linear regression has high R squared and Adjusted R squared values and ElasticNet has lower values.
+Hence, we considered Linear Regression model to predict the house prices. So, we can conclude that system makes optimal use of linear regression to predict house prices. 
+
+The application developed provides a user interface which allows the user to Register, Login, and Logout and enter features of the
+house as input based on his/her requirements. Based on the inputs provided by the user accurate house price is predicted by the model and displayed on the
+Interface. Thus, the system developed helps to fulfil user providing accurate price and reducing risk of huge investment. 
+
+
+
+
+
+
+
 
 # REFERENCES
 [1] Vishal Raman, May 2014. Identifying Customer Interest in Real Estate Using Data Mining.
