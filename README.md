@@ -34,13 +34,13 @@ Nowadays, everything is shifting from manual to automated systems. So, we decide
 provides location and size as input.
 # CONCLUSION
 In this project we used regression algorithms to predict house prices of real dataset of Seattle, USA. This dataset is used to train and test four different
-regression models which include Linear Regression, Lasso Regression, Ridge Regression and ElasticNet Regression model.
+regression models which include Linear Regression, Decision tree Regressor, Random Forest regressor and Xtreme Gradient Boosying.
 
 In order to evaluate performance of each model we have used evaluation metrics like R-squared value and adjusted R-squared value. The value of R2 and
 Adjusted R2 are compared to select accurate model.
 
 
-By making a clear analysis we have found that linear regression has high R squared and Adjusted R squared values and ElasticNet has lower values.
+By making a clear analysis we have found that linear regression and Xtreme Gradient Boosting has high R squared and Adjusted R squared values and Decsion tree  has lower values.
 Hence, we considered Linear Regression model to predict the house prices. So, we can conclude that system makes optimal use of linear regression to predict house prices. 
 
 The application developed provides a user interface which allows the user to Register, Login, and Logout and enter features of the
