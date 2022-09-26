@@ -16,5 +16,5 @@ Advanced regression techniques like random forest and gradient boosting
 Acknowledgments
 The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
 
-# Goal
+# Objective
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
